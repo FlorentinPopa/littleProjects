@@ -1,0 +1,63 @@
+#result {
+    width: 264px;
+    height: 40px;
+    background-color: rgb(158, 214, 151);
+    border-radius: 5px;
+}
+
+#result p {
+    color: white;
+    padding-top: 2px;
+    font-size: 1.4rem;
+
+}
+
+.numere {
+    max-width: 60px;
+    box-shadow: 0px 0px 1px 1px rgba(250, 237, 163, 0.75);
+    background-color: whitesmoke;
+}
+
+.numere:hover {
+    background-color: rgba(250, 237, 163, 0.75);
+}
+
+.operator {
+    max-width: 60px;
+    background-color: rgba(250, 237, 163, 0.75);
+}
+
+.operator:hover{
+    background-color: whitesmoke;
+}
+
+.punct {
+    max-width: 60px;
+    background-color: rgba(250, 237, 163, 0.75);
+}
+
+.punct:hover {
+    background-color: whitesmoke;
+}
+
+.butoane-jos {
+    max-width: 128px;
+    background-color:rgba(62, 218, 202, 1);
+}
+
+.butoane-jos:hover{
+    background-color: rgba(62, 218, 202, 0.7);
+}
+
+.container {
+    max-width: 272px;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 10px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}

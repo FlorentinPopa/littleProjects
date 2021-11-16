@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid nav-color">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                    alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-text"><button class="btn-outline-warning nav-color">Download</button></div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 my-3">
+                <input class="form-control form-control-lg" placeholder="Search..." />
+                <div class="accordion mt-3" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-chevron-compact-down"></i>
+                                    Getting started
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Introduction</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_download">Download</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_contents">Contents</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_browsers&devices">Browsers &
+                                            devices</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_javascript">JavaScript</a>
+                                    </li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_Theming">Theming</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#" alt="link_build_tools">Build
+                                            tools</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_webpack">Webpack</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_Accesibility">Accessibility</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Layout
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none text-muted" href="#">Overview</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#">Grid</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#">Utilities</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Content
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Reboot</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Typografy</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Code</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Images </a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Tables</a></li>
+                                    <li><a class="text-decoration-none text-muted" href="#"
+                                            alt="link_introduction">Figures</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 my-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9">
+                            <h1><i class="bi bi-info-circle-fill mr-3"></i>Introduction</h1>
+                            <p class="lead">Get started with Bootstrap, the world’s most popular framework for building
+                                responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+                            <h2>Overview</h2>
+                            <p>Looking to quickly add Bootstrap to your project? Use jsDelivr, a free open source CDN.
+                                Using a package manager or need to download the source files? <a href="#">Head to the
+                                    downloads page.</a>
+                            </p>
+                        </div>
+                        <div class="col-3 text-right"><button class="btn btn-outline-info">View on GitHub <i
+                                    class="bi bi-github"></i></button></div>
+                    </div>
+
+                </div>
+                <div class="container mt-3">
+                    <h2 class="text-uppercase">css</h2>
+                    <p class="text-justify">Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all
+                        other stylesheets to
+                        load our CSS.</p>
+                    <pre><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"&gt;                        
+                    </code></pre>
+                    <h2 class="text-uppercase">js</h2>
+                    <p class="text-justify">Many of our components require the use of JavaScript to function.
+                        Specifically, they require
+                        jQuery, Popper, and our own JavaScript plugins. We use jQuery’s slim build, but the full version
+                        is also supported.
+
+                        Place one of the following &lt;script&gt;s near the end of your pages, right before the closing
+                        &lt;/body&gt; tag, to enable them. jQuery must come first, then Popper, and then our JavaScript
+                        plugins.</p>
+                    <h2>Bundle</h2>
+                    <p class="text-justify">Include every Bootstrap JavaScript plugin with one of our two bundles. Both
+                        bootstrap.bundle.js
+                        and bootstrap.bundle.min.js include Popper for our tooltips and popovers, but not jQuery.
+                        Include jQuery first, then a Bootstrap JavaScript bundle. For more information about what’s
+                        included in Bootstrap, please see our contents section.</p>
+                    <pre class="chroma"><code>&lt;script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"&gt;&lt;/script&gt;
+                        </code></pre>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-muted" href="#" alt="Quick Start menu">Quick Start</a></li>
+                    <ul class="list-unstyled ml-3">
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <ul class="list-unstyled ml-3">
+                            <li>Bundle</li>
+                            <li>Separate</li>
+                            <li>Components</li>
+                        </ul>
+                    </ul>
+                    <li><a class="text-decoration-none text-muted" href="#" alt="Quick Start menu">Starter template</a>
+                    </li>
+                    <li><a class="text-decoration-none text-muted" href="#" alt="Quick Start menu">Important globals</a>
+                    </li>
+                    <ul class="list-unstyled ml-3">
+                        <li>HTML 5 doctype</li>
+                        <li>Responsive meta tag</li>
+                        <li>Box-sizing</li>
+                        <li>Reboot</li>
+                    </ul>
+                    <li><a class="text-decoration-none text-muted" href="#" alt="Quick Start menu">Community</a></li>
+                    <li><a class="text-decoration-none text-muted" href="#" alt="Quick Start menu">CSPs and embedded
+                            SVGs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Florentin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body><header>
+    <!-- <div class="container-fluid bg-navi fixed-top"> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navi ">
+            <a class="navbar-brand" href="#"></a>
+            <img src="img/vector-pen.svg" width="20px" height="20px" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modul 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modul 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modul 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modul 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        
+
+    <!-- </div> -->
+</header>
+    <div class="container-fluid bg-principal">
+        <div class="row flex-xl-nowrap">
+            <div class="col-md-2 d-lg-block bd-sidebar bd-toc d-none d-xl-block">
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-light" href="#" alt="Quick Start menu">Shortcuts...</a></li>
+                    <ul class="list-unstyled ml-3">
+                        <l><a class="text-decoration-none text-light"  href="#definitions">Definitions</a></li>
+                        <li><a class="text-decoration-none text-light"  href="#elements">Elements</a></li>
+                        <li><a class="text-decoration-none text-light"  href="#dom">DOM</a></li>
+                        <li><a class="text-decoration-none text-light"  href="#html-areas">HTML areas</a></li>
+                        <ul class="list-unstyled ml-3">
+                            <li><a class="text-decoration-none text-light"  href="#head">Head</a></li>
+                            <li><a class="text-decoration-none text-light"  href="#body">Body</a></li>
+                        </ul>
+                    </ul>
+                    <li><a class="text-decoration-none text-light" href="#attributes" alt="attributes">HTML attributes</a></li>
+                </ul>
+            </div>
+            <main class="col-md-10 bg-white mt-4" role="main">
+                <article>
+                    <h3>HTML (HyperText Markup Language)</h3>
+                    <ol>
+                        <li class="font-weight-bold" id="definitions">Definitions</li>
+                        <ul>
+                            <li>Este cel care infrumuseteaza CSS-ul; fara HTML css-ul nu ar avea logica</li>
+                            <li><em><strong>Nu</strong> este un limbaj de programare;</em> este un limbaj de marcare a
+                                textului si de definire a unor tag -uri.</li>
+                            <li>Este limbajul default pentru browser; care citeste limbajul :</li>
+                            <ul>
+                                <li>De la stanga la dreapta</li>
+                                <li>De sus in jos</li>
+                                <li>Si nu se opreste in caz de err (ex. La C++ se opreste si iti spune ca are o err; dar
+                                    browser-ul nu notifica asta niciodata);</li>
+                            </ul>
+                            <li>The &lt;!DOCTYPE html&gt; tag: type of document the browser is about to show.</li>
+                            <ul>
+                                <li>All of the document structure is made of tags.</li>
+                                <li>All of the document structure is made of tags.</li>
+                                <li>All of them are placed within the HTML tag (opened with &lt;html&gt; and closed with
+                                    &lt;/html&gt;).</li>
+                            </ul>
+                            <li><em><strong>NU</strong> scriem tags inafara tag-urilor:</em></li>
+                            <ul>
+                                <li>in afara &lt;html&gt;</li>
+                                <li>intre &lt;html&gt; si &lt;head&gt;</li>
+                                <li>intre &lt;head&gt; si &lt;body&gt;</li>
+                                <li>intre &lt;body&gt; si &lt;html&gt;</li>
+                            </ul>
+                            <li>HTML is not a programming language.</li>
+                            <li>It has no logic and no interaction with users.</li>
+                            <li>What a browser does, is interpreting a series of nested tags as a structure of nested
+                                elements.</li>
+                            <li>Each element has its default appearance and behavior.</li>
+                            <li>However it can be changed by: attributes, CSS styles, JS.</li>
+                        </ul>
+                        <li class="font-weight-bold" id="elements">Elements are nested inside one another:</li>
+                        <ul>
+                            <li> <strong>&lt;span&gt;</strong> is nested inside <strong>&lt;p&gt;</strong></li>
+                            <li><strong>&lt;p&gt;</strong> is nested inside <strong>&lt;body&gt&gt;</strong>, an element
+                                can contain other elements or some text.</li>
+                            <li>We usually open a HTML elements with <strong>&lt;tag&gt;</strong> and close with
+                                <strong>&lt;/tag&gt;</strong>
+                            </li>
+                            <li>We must close the inner element before we close the outer one.</li>
+                            <li><strong>Exception:</strong> empty elements.</li>
+                            <li><strong>&lt;br /&gt;</strong> - end of line;</li>
+                            <li><strong>&lt;img src="..."&gt;</strong> - display an image</li>
+                            <li><strong>exista tag-uri simple</strong> (exp: &lt;br /&gt;, &lt;img src=...&gt;) --&gt;
+                                unde nu este nevoie de inchidere tag dupa</li>
+                            <li><strong>exista si tag-uri duble</strong> - unde este nevoie de inchidere post (exp:
+                                <strong>&lt;p&gt;...&lt;/p&gt;</strong>
+                            </li>
+                        </ul>
+                        <li class="font-weight-bold" id="dom">DOM - Document Object Model</li>
+                        <ul>
+                            <li>A browser interprets a bunch of nested HTML tags as a structure of objects.</li>
+                            <li>We call it <strong>DOM:</strong> --&gt;Document Object Model.</li>
+                            <li>We can imagine DOM as a tree.</li>
+                            <li>Parent elements contain children elements like in a family tree.</li>
+                        </ul>
+                        <li class="font-weight-bold" id="html-areas">HTML areas :</li>
+                            <ul>
+                                <li id="head"><strong>HEAD --&gt;</strong> introducem informatiile legate de site, cum se vede in zona de
+                                        tab (ex. Title, samd)</li>
+                                <ul>
+                                    <li>A valid HTML document consists of <strong>&lt;head&gt;</strong> and
+                                        <strong>&lt;body&gt;</strong>.
+                                    </li>
+                                    <li>The &lt;head&gt; tells us: kind of content, encoding etc.</li>
+                                    <li>The elements in the &lt;head&gt; section are not being displayed.</li>
+                                    <li>Contains the &lt;title&gt; of the document.</li>
+                                    <li>Can contain different metadata (information for browsers).</li>
+                                    <li>Can contain some additional scripts.</li>
+                                    <li>Can contain style rules:</li>
+                                    <img src="img/img1.jpg" title="imaginea 1" />
+                                </ul>
+                                <li id="body" class="font-weight-bold">BODY --&gt;acolo scriem continutul site-ulu</li>
+                                <ul>
+                                    <li>The &lt;body&gt; section contains everything to be displayed.</li>
+                                    <li>&lt;body&gt;: the actual document for the user.</li>
+                                    <li>&lt;head&gt;: description of the document for the browser.</li>
+                                </ul>
+                                <img src="img/img2.jpg" title="imaginea 2" />
+                            </ul>
+                    
+                        <li class="text-decoration-none" id="attributes">HTML attributes</li>
+                        <ul>
+                            <li>HTML elements can have attributes.</li>
+                            <li>They provide some extra information about features of an element</li>
+                            <li>Syntax: attribute="value"</li>
+                            <img src="img/img3.jpg" title="valoare atribut" />
+                            <li>Most common HTML attributes:</li>
+                            <ul>
+                                <li><strong><em>href</em></strong> - specifies the link’s address,</li>
+                                <li><strong><em>src</em></strong> - specifies source of the content,</li>
+                                <li><strong><em>title</em></strong> - information shown on hover,</li>
+                                <li><strong><em>id, class</em></strong> - identification of the element for CSS, JS etc.
+                                </li>
+                            </ul>
+                            <li><em>If using href without https:// </em>ne duce in local --> pentru app inseamna sa
+                                caute direct in local un fisier cu extensia spusa de noi.</li>
+                        </ul>
+                    </ol>
+                </article>
+            </main>
+        </div>
+    </div>
+    <footer>
+    <div class="container-fluid bg-navi nav-color-c fixed-bottom">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer">aici este un footer</div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+.item-header { grid-area: header; }
+.item-header h1 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+.item-header h4 {
+    float: right;
+    margin-right: 30px;
+}
+.item-menu { 
+    grid-area: menu;
+    width: 100%;
+}
+
+/* .item-menu ul {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: 4px solid #202020;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+*/
+.item-menu ul li {
+    font-size:18px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 15px;
+    list-style:none;
+}
+/*.item-menu ul li:hover {
+   font-size:20px; 
+}*/
+.item-main { grid-area: main; display: inline;}
+/*.item-right { grid-area: right;}*/
+.item-left {
+    float: left;
+    margin-left: 20px;
+}
+.item-right {
+    float: right;
+    margin-right: 30px;
+}
+.item-footer { grid-area: footer;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color:salmon;
+  padding: 10px;
+}
+
+.grid-container > div {
+    display: block;
+    background-color: white;
+    border: 4px solid #202020;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container > section {
+    display: block;
+    background-color: white;
+    border: 4px solid #202020;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+article {
+    font-size: 15px;
+    text-align: left;
+}
+a:hover,
+.link:hover,
+a:visited:hover,
+.link:visited:hover {
+  color: #b1b;
+  transition: all 250ms ease-in-out;
+}
+a:focus,
+.link:focus {
+  color: black;
+  outline: 2px solid gold;
+  background-color: gold;
+}
+a:active,
+.link:active,
+a:visited:active,
+.link:visited:active {
+  color: #808;
+  outline: none;
+  background-color: transparent;
+}
+
+a:visited,
+.link:visited {
+  color: #080;
+}
+.button, .button:visited {
+    color: #25a;
+    background-color: #cef;
+    border: 1px solid #67c;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: bottom;
+    transition: all 180ms ease-in-out;
+  }
+.button:hover {
+    color: white;
+    background-color: #25a;
+    border-color: #25a;
+  }
+.button:focus {
+    outline: none;
+    color: black;
+    background-color: gold;
+    border-color: black;
+  }
+.button:active {
+    color: #ddd;
+    background-color: #127;
+    border-color: #127;
+  }

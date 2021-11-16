@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator complex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <div class="container bg mt-3">
+        <div class="row">
+            <div class="col-12 mx-1 my-2 text-end" id="result">
+                <p>Calculator by Florentin</p>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="7">7</button>
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="8">8</button>
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="9">9</button>
+            <button type="button" class="col-3 btn fw-bolder text-center operator m-1"  value="impartire">/</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1"  value="4">4</button>
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="5">5</button>
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="6">6</button>
+            <button type="button" class="col-3 btn fw-bolder text-center operator m-1" value="inmultire">x</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="1">1</button>
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="2">2</button>
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="3">3</button>
+            <button type="button" class="col-3 btn fw-bolder text-center operator m-1" value="scadere">-</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="col-3 btn fw-bolder text-center numere m-1" value="0">0</button>
+            <button type="button" class="col-3 btn fw-bolder text-center punct m-1" value="punct">.</button>
+            <button type="button" class="col-3 btn fw-bolder text-center operator m-1" value="adunare">+</button>
+            <button type="button" class="col-3 btn fw-bolder text-center operator m-1" value="la-suta">%</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="col-6 btn fw-bolder text-center butoane-jos m-1" id="goleste">C</button>
+            <button type="button" class="col-6 btn fw-bolder text-center butoane-jos m-1" value ="egal" id="go">=</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

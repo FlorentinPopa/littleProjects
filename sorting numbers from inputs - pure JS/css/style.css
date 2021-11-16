@@ -1,0 +1,16 @@
+.afisare {
+    background-color: bisque;
+    border: 2px solid lightpink;
+    display: none;
+}
+
+.mesaj {
+    color:saddlebrown;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.numere {
+    font-size: 1.2rem;
+    color:seagreen;
+}
